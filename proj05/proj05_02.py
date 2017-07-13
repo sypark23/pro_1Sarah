@@ -79,3 +79,30 @@ def vowelFinder(list, vowel_list):
 
     #Fill in the function and change the return statment.
     return ['s']
+
+
+
+
+
+
+
+
+vowels = ['a', 'e', 'i', 'o', 'u', 'y']
+print("Vowel Finder Tests")
+
+# Test 11
+if vowelFinder(['C', 'n', 's', 'n', 't', 's'], vowels) == []:
+    print ("Test 11: PASS")
+else:
+    print ("Test 11: FAIL")
+
+sentence_string = "Hello, my name is Monty Python."
+sentence_list = []
+for letter in sentence_string:
+    sentence_list.append(letter)
+
+# Test 12
+if vowelFinder(sentence_list, vowels) == ['a', 'e', 'i', 'o', 'y']:
+    print ("Test 12: PASS\n")
+else:
+    print ("Test 12: FAIL\n")
