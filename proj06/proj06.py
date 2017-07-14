@@ -85,6 +85,7 @@ while list != list1 and count_guess< 8:
     print list1
 #correct=False
     if correct==False and count_guess==1:
+        print "that letter is incorrect"
         print   "---------"
         print   "|       |"
         print   "|       O "
@@ -97,6 +98,7 @@ while list != list1 and count_guess< 8:
         print   "|_______________|"
 
     if correct==False and count_guess==2:
+        print "that letter is incorrect"
         print   "---------"
         print   "|       |"
         print   "|       O "
@@ -109,6 +111,7 @@ while list != list1 and count_guess< 8:
         print   "|_______________|"
 
     if correct == False and count_guess == 3:
+        print "that letter is incorrect"
         print   "---------"
         print   "|       |"
         print   "|       O "
@@ -121,6 +124,7 @@ while list != list1 and count_guess< 8:
         print   "|_______________|"
 
     if correct == False and count_guess == 4:
+        print "that letter is incorrect"
         print   "---------"
         print   "|       |"
         print   "|       O "
@@ -133,40 +137,43 @@ while list != list1 and count_guess< 8:
         print   "|_______________|"
 
     if correct == False and count_guess == 5:
-            print   "---------"
-            print   "|       |"
-            print   "|       O "
-            print   "|      /|\ "
-            print   "|       | "
-            print   "|         "
-            print   "-------"
-            print   "|      |________"
-            print   "|               |"
-            print   "|_______________|"
+        print "that letter is incorrect"
+        print   "---------"
+        print   "|       |"
+        print   "|       O "
+        print   "|      /|\ "
+        print   "|       | "
+        print   "|         "
+        print   "-------"
+        print   "|      |________"
+        print   "|               |"
+        print   "|_______________|"
 
     if correct == False and count_guess == 6:
-            print   "---------"
-            print   "|       |"
-            print   "|       O "
-            print   "|      /|\ "
-            print   "|       | "
-            print   "|      / "
-            print   "-------"
-            print   "|      |________"
-            print   "|               |"
-            print   "|_______________|"
+        print "that letter is incorrect"
+        print   "---------"
+        print   "|       |"
+        print   "|       O "
+        print   "|      /|\ "
+        print   "|       | "
+        print   "|      / "
+        print   "-------"
+        print   "|      |________"
+        print   "|               |"
+        print   "|_______________|"
 
     if correct == False and count_guess == 7:
-            print   "---------"
-            print   "|       |"
-            print   "|       O "
-            print   "|      /|\ "
-            print   "|       | "
-            print   "|      / \ "
-            print   "-------"
-            print   "|      |________"
-            print   "|               |"
-            print   "|_______________|"
+        print "that letter is incorrect"
+        print   "---------"
+        print   "|       |"
+        print   "|       O "
+        print   "|      /|\ "
+        print   "|       | "
+        print   "|      / \ "
+        print   "-------"
+        print   "|      |________"
+        print   "|               |"
+        print   "|_______________|"
 if list==list1:
     print "Congratulations you have finished one round of hangman"
     print "-----   ----  --  --  -----  ---   ---  -------        |     ---  ------  ------   ---   --  --  -----"
@@ -179,9 +186,6 @@ if count_guess>7:
     print"/   _   /___\  /  \ /  \   | ___      /   \    \  /   | ___   |___| "
     print"\___/   |   |  |   v   |   | ___      \___/     \/    | ___   |   \ "
     print "The word was",random_word
-
-
-
 
 
 
